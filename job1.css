@@ -1,0 +1,683 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+    text-decoration: none;
+}
+body{
+    background-color: black !important;
+}
+/* header 1 */
+
+header img{
+    position: relative;
+    left: 100px;
+}
+nav a{
+    color: white;
+    position: relative;
+    left: 400px;
+    top: -50px;
+}
+nav p{
+    background-color: #FF4900;
+    position: relative;
+    top: 31px;
+}
+#active{
+    background-color: #FF4900;
+    border: 1px #FF4900 solid;
+    height: 90px;
+    width: 110px;
+    margin-top: -33px;
+   color: white !important;
+}
+nav a:hover{
+    color:#FF4900;
+}
+nav button{
+    position: relative;
+    left: 450px;
+    top: -50px;
+    background-color: #FF4900 !important;
+    border-color:#FF4900 !important;
+    width: 130px;
+    height: 50px;
+}
+
+
+/* section1 */
+button{
+    background-color: #FF4900;
+    border:10px #FF4900 solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    cursor: pointer;
+    
+}
+.button3{
+    background-color: black;
+    border:1px white solid;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 350px;
+    cursor: pointer;
+}
+
+.hello{
+background-color: #FF4900 !important;
+    border: 15px #FF4900 solid;
+    width: 150px;
+    color: white;
+    height: 45px;
+    position: relative;
+    right: 1350px;
+    top: 70px;
+    z-index: -1px;
+}
+div .p5{
+    background: #FF4900;
+    text-align: center;
+}
+section h1{
+    color: white;
+    font-weight: 800;
+    font-size: 47px;
+    margin-left: 150px;
+
+  
+    
+}
+section .p4{
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 380px;
+}
+button{
+    background-color: #FF4900;
+    border:10px #FF4900 solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.button3{
+    background-color: black;
+    border:1px white solid;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button4{
+    background-color:black;
+    border:1px #FF4900 solid;
+    color: #FF4900;
+    width: 45px;
+    height: 100px;
+    border-radius: 20px;
+   
+    position: relative;
+    left: 650px;
+    top: 250px;
+    
+}
+section a{
+    color: #FF4900;
+}
+
+article{
+    background-image: url("IMG/man-wearing-black-bow-tie-2330079.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 1100px 700px;
+    position: static;
+    z-index: 3px;
+     margin-top: -400px; 
+}
+#hello{
+   background-color: #FF4900;
+}
+
+section div{
+    border: 15px #FF4900 solid;
+    width: 150px;
+    color: white;
+    height: 45px;
+    margin-left: 1500px;
+    background-color: #FF4900;
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px ;
+        display: inline-block;
+
+    }
+    nav a{
+        padding-left: 10px;
+    }
+    section h1{
+        font-size: 1px;
+    }
+    section{
+        padding: 20px;
+    }
+}
+
+/* section 2 */
+aside .section-21{
+    position: relative;
+    left: 200px;
+z-index: 350;
+}
+aside .section-22{
+    border-radius: 10px;
+    position: relative;
+    top: 300px;
+    left: -550px;
+ z-index: 400;
+}
+aside .section-23{
+    position:relative;
+    left: -735px;
+    top: 210px;
+   z-index: 450;
+}
+aside h1{
+    color: white;
+    margin-left: 200px;
+    position: relative;
+    top: -150px;
+    z-index: 430;
+}
+.hg{
+    height: 20px;
+}
+div section{
+    float:right;
+ 
+}
+div section h1{
+    position: relative;
+    top: -700px;
+    right: 140px;
+    font-weight: 600;
+    font-size: 40px;
+}
+div section pre{
+    color: white;
+    position: relative;
+    top: -700px;
+    right: 1px;
+    background-color: black;
+}
+div section svg {
+    position: relative;
+    top: -700px;
+    right: 30px;
+    z-index: 3;
+}
+div section hr{
+    position: relative;
+    top: -680px;
+    right: 10px;
+    color: #FF4900;
+    background-color: #FF4900 !important;
+}
+div section .button5{
+    color: white;
+    position: relative;
+    top: -650px;
+left: -160px;
+    z-index: 550;
+}
+div section .button6{
+    background-color: black;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    position: relative;
+    top: -650px;
+    left: 200px;
+   z-index: 550;
+}
+
+
+/* section 3 */
+.section3 h2{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+.section3 h6{
+    color: white;
+    text-align: center;
+}
+.section3 svg{
+    position: relative;
+    left: 730px;
+    top: -250px;
+}
+.div1{
+    width: 350px;
+    height: 100px;
+    background-color: #FF4900;
+    position: relative;
+    left: 140px;
+    top: -90px;
+}
+.Ellipse{
+    background-color: #FF4900;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.Ellipse2{
+    position: relative;
+    top: 15px;
+    left: -40px;
+  
+    background-color: white;
+}
+.div1 p{
+    background-color: #FF4900;
+    color: white;
+text-align: center;
+margin-top: -30px;
+font-weight: lighter;
+font-size: larger;
+}
+.div1 #arrow-right{
+    color:white;
+    position: relative;
+   left: 300px;
+   top: -40px;
+   
+  background-color: #FF4900;
+}
+.div2{
+    width: 350px;
+    height: 100px;
+    background-color: #111111;
+    position: relative;
+    left: 540px;
+    top: -190px;
+}
+.div2 .Ellipse3{
+    background-color: #111111;
+    margin-left: 20px;
+margin-top: 10px;    }
+    .div2 .Ellipse4{
+        z-index: 100;
+        margin-left: -65px;
+    }
+    .div2 p{
+        background-color: #111111;
+        color: white;
+    text-align: center;
+  margin-top: -50px;
+    font-weight: lighter;
+    font-size: larger;
+    }
+    .div2 #arrow-right2{
+        color: #FF4900;
+        position: relative;
+        left: 300px;
+        top: -40px;
+        background-color: #111111;
+    }
+    .div3{
+        width: 350px;
+        height: 100px;
+        background-color: #111111;
+        position: relative;
+        left: 950px;
+        top: -290px;
+    }
+    .div3 .Ellipse5{
+        margin-left: 20px;
+        border-radius: 50px;
+        margin-top: 10px;
+    }
+    .div3 .Ellipse6{
+        margin-left: -65px;
+    }
+    .div3 p{
+        background-color: #111111;
+        color: white;
+    text-align: center;
+  margin-top: -50px;
+  margin-left: 50px ;
+    font-weight: lighter;
+    font-size: larger;
+    }
+.div3 #arrow-right3{
+    color: #FF4900;
+    position: relative;
+    left: 300px;
+    top: -40px;
+    background-color: #111111;
+}
+.div4 {
+    width: 350px;
+    height: 100px;
+    background-color: #111111;
+    position: relative;
+    left: 140px !important;
+    top: -250px;
+}
+.div4 .Ellipse7{
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+z-index: 2;
+    
+}
+.div4 .Ellipse8{
+    margin-left: -60px;
+    margin-top: 10px;
+    z-index: 3;
+
+}
+.div4 p{
+    background-color: #111111;
+    color: white;
+font-weight: lighter;
+font-size: larger;
+margin-top: -60px;
+margin-left: 150px;
+}
+.div4 #arrow-right4{
+    color: #FF4900;
+    position: relative;
+    left: 300px;
+    top: -40px;
+    background-color: #111111;
+}
+.div5 {
+      width: 350px;
+    height: 100px;
+    background-color: #111111;
+    position: relative;
+    left: 540px;
+    top: -345px;
+}
+.div5 .Ellipse9{
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.div5 .Ellipse10{
+    margin-left: -65px;
+}
+.div5 p{
+    background-color: #111111;
+    color: white;
+font-weight: lighter;
+font-size: larger;
+margin-top: -60px;
+margin-left: 150px;
+}
+.div5 #arrow-right5{
+    color: #FF4900;
+    background-color: #111111;
+    position: relative;
+     left: 300px;
+    top: -40px;
+}
+.div6{
+        width: 350px;
+    height: 100px;
+    background-color: #111111;
+    position: relative;
+    left: 950px;
+    top: -450px;
+}
+.div6 .Ellipse11{
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.div6 .Ellipse12{
+    margin-left: -60px;
+}
+.div6 p{
+     background-color: #111111;
+    color: white;
+font-weight: lighter;
+font-size: larger;
+margin-top: -60px;
+margin-left: 130px;
+}
+.div6 #arrow-right6{
+    color: #FF4900;
+    background-color: #111111;
+    position: relative;
+     left: 300px;
+    top: -40px;
+}
+/* .div6:hover{
+    background-color: #FF4900;
+} */
+.div5 .button5{
+    position: relative;
+    left: 50px;
+    top: 80px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+/* section4 */
+.section4{
+display: grid;
+grid-template-columns: 300px 300px 300px 300px;
+justify-content: center;
+background-color: #000000;
+}
+
+.box{
+    width: 236px;
+    height: 200px;
+    background-color: #111111;
+    border:#707070 2px dashed;
+  
+}
+.box2{
+    width: 236px;
+    height: 200px;
+    /* background-color: #111111;
+    border:#707070 2px dashed; */
+    background-color: #FF4900;
+
+}
+
+  .box3{
+    width: 236px;
+    height: 200px;
+    background-color: #111111;
+    border:#707070 2px dashed;
+}
+.box4{
+    width: 236px;
+    height: 200px;
+    background-color: #111111;
+    border:#707070 2px dashed;
+}
+.section4 h4{
+    color: white;
+    position: relative;
+     top: 70px;
+    background-color: #111111;
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 300;
+}
+.box2 h4{
+    background-color: #FF4900;
+}
+/* section5 */
+.section5 h2{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+}
+.section5 h6{
+    color: white;
+    text-align: center;
+}
+.section5 svg{
+    position: relative;
+    left: 730px;
+    top: -250px;
+}
+.section5 a{
+    color:white;
+}
+.section5 ul{
+    margin-left: 480px;
+    position: relative;
+    top: -130px;
+}
+#all{
+    color: #FF4900;
+}
+.section5 a:hover{
+    color: #FF4900;
+}
+
+.section5 p{
+    color: white;
+    background-color: #000000;
+    position: absolute;
+}
+.section5 h3{
+    color: white;
+    
+}
+.tag{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+   
+    margin-left: 120px;
+    margin-top: -100px;
+}
+.p{
+    margin-top: 60px;
+    height: 380px;
+    width: 32%;
+    position: relative;
+}
+.p img{
+    width: 350px;
+    height: 390px;
+    margin-top: 20px;
+}
+.section5 .c{
+    width: 350px;
+    height: 400px;
+    display: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 90px;
+    position: absolute;
+   background-color:#FF4900; 
+    top: 5%;
+   
+  
+}
+.section5 h3{
+    padding-left: 15px;
+    background-color: #FF4900;
+}
+.section5 p{
+    background-color: #FF4900;
+}
+.section5 pre{
+    color: white;
+    background-color: #FF4900;
+    text-align: center;
+}
+.p:hover .c{
+    display: block;
+    background-color: #FF4900;
+}
+ .p:hover img{
+    display: none;
+}
+
+#btn-sec5{
+    position: relative;
+    top: 150px;
+    left: 700px;
+    width: 130px;
+   background-color: #FF4900;
+}
+
+/* section6 */
+.section6 h2{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+}
+.section6 h6{
+    color: white;
+    text-align: center;
+}
+.section6 svg{
+    position: relative;
+    left: 730px;
+    top: -250px;
+}
+
+.sid1{
+    color: white;
+    background-color: #FF4900;
+    width: 800px;
+    height: 500px;
+    margin-left: 20px;
+}
+.sid1 h5{
+    color: #FF4900;
+}
+
+/* Resposeve */
+/* mobial */
+@media (max-width:767px){
+body{
+    background-color: #FF4900;
+}
+}
+/* medium */
+@media (min-width:768px){
+
+}
+/* large */
+@media (min-width:1200px){
+
+}
+
+
