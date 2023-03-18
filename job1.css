@@ -166,22 +166,7 @@ section div{
 
 
 
-@media (max-width:1023px){
-    header{
-        padding: 12px ;
-        display: inline-block;
 
-    }
-    nav a{
-        padding-left: 10px;
-    }
-    section h1{
-        font-size: 1px;
-    }
-    section{
-        padding: 20px;
-    }
-}
 
 /* section 2 */
 aside .section-21{
@@ -236,13 +221,13 @@ div section svg {
     right: 30px;
     z-index: 3;
 }
-div section hr{
+.progress{
+    background-color:#707070 !important;
     position: relative;
-    top: -680px;
-    right: 10px;
-    color: #FF4900;
-    background-color: #FF4900 !important;
+    right: 60px;
+    top: -700px;
 }
+
 div section .button5{
     color: white;
     position: relative;
@@ -443,7 +428,7 @@ margin-left: 150px;
     background-color: #111111;
     position: relative;
      left: 300px;
-    top: -40px;
+    top: -50px;
 }
 .div6{
         width: 350px;
@@ -476,9 +461,7 @@ margin-left: 130px;
      left: 300px;
     top: -40px;
 }
-/* .div6:hover{
-    background-color: #FF4900;
-} */
+
 .div5 .button5{
     position: relative;
     left: 50px;
@@ -506,8 +489,6 @@ background-color: #000000;
 .box2{
     width: 236px;
     height: 200px;
-    /* background-color: #111111;
-    border:#707070 2px dashed; */
     background-color: #FF4900;
 
 }
@@ -809,34 +790,174 @@ color: white;
 
 
 
+/* footer */
+/* left */
+    .footer-left{
+       margin-left: 200px;
+    
+    }
+    .footer-left p{
+        color: white;
+    }
+    .footer-left h1{
+        color: white;
+    }
+    .footer-left span{
+        color: white;
+    }
+    .footer-left .phon,.email,.loca{
+        position: relative;
+        left: -40px;
+    }
+   .box-red{
+    background-color: #FF4900;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: -100px;
+   }
+   .box-red img{
+    background-color: #FF4900;
+    padding-top: 10px;
+    position: relative;
+    left: 100px;
+    padding-left: 20px;
+   }
+
+/* right */
 
 
+   #kh{
+    border: 2px #333333 solid;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 10px;
 
+}
+#om{
+    border: 2px #333333 solid;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
 
-
-
-
-
-
-
-
-
-
-
+}
+#checkBox{
+    border: 2px #333333 solid;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: #707070;
+}
+.footer-right{
+    float: right;
+    position: relative;
+    top: -550px;
+    right: 80px;
+}
+#hk{
+    border: 2px #333333 solid;
+    width: 620px;
+    height: 170px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#btn-footer{
+  
+    width: 150px;
+    height: 50px;
+    background-color: #FF4900;
+    text-align: center;
+}
+.line4{
+    position: relative;
+    left: 720px;
+   top: -230px;
+}
+.line3{
+    position: relative;
+    left: 720px;
+   top: -230px;   
+}
 
 
 /* Resposeve */
 /* mobial */
 @media (max-width:767px){
-    a{
-        color: #FF4900;
+ header img{
+    width: 150px;
+    height: 50px;
+    margin-left:-50px;
+ }
+ header a{
+    display: block;
+    position: relative;
+    left: 1px;
+    top: 80px;
+    text-decoration:underline;
+ }
+ article{
+    background-image: none;
+ }
+ ul button{
+    position: relative;
+    left: 280px;
+    top: 25px;
+
+}
+.button3{
+    position: relative;
+    top: 30px;
+    left: 124px;
+}
+.button4{
+    display: none;
+}
+div aside{
+    display: none;
+}
+.hg{
+position: relative;
+left: 200px;
+top: 200px;
+}
+.hg h1{
+
+font-size: medium;} 
+.section3{
+    display: block;
+}
+
     }
-    }
+   
     /* medium */
     @media (min-width:768px){
-    
+      
     }
     /* large */
     @media (min-width:1200px){
-    
+      
     }
+    @media (max-width:1023px){
+        header{
+            padding: 12px ;
+            display: inline-block;
+    
+        }
+        nav a{
+            padding-left: 10px;
+        }
+        section h1{
+            font-size: 10px;
+        }
+        section{
+            padding: 20px;
+        }
+    }
+
+
+
+    
